@@ -14,7 +14,7 @@ int main() {
                 "\t\t\tEnter your choice: ";
         
         int choice;
-        cin >> choice; cin.ignore();
+        cin >> choice;
 
         if (choice = 0) {
             exit(0);
