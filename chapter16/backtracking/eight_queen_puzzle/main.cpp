@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Backtracking
 void EightQueenPuzzle(int result[], int row) {
     if (row == 8) {
         for (int i = 0; i < 8; i++) {
